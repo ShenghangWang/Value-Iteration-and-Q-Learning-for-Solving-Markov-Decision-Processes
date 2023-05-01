@@ -1,0 +1,11 @@
+# Value-Iteration-and-Q-Learning-for-Solving-Markov-Decision-Processes-in-Python
+
+The goal of this project is to implement two of the most popular reinforcement learning algorithms, Value Iteration and Q-Learning, and compare their performance on a gridworld environment. 
+
+Reinforcement learning is a subfield of machine learning that focuses on training agents to make decisions based on trial and error, by providing feedback in the form of rewards or penalties. In this project, the agents will learn to navigate a gridworld environment, which is a simple 2D grid where each cell represents a state, and the agent can take actions to move between states. The agent's goal is to find the optimal path from the starting state to the goal state while maximizing the cumulative reward along the way.
+
+The first algorithm implemented is Value Iteration, which is a dynamic programming method that iteratively updates the value function for each state, based on the Bellman equation. The value function represents the expected cumulative reward that the agent will receive if it starts in a given state and follows the optimal policy from that state. The optimal policy can then be derived from the value function, by selecting the action that leads to the state with the highest expected value.
+
+The second algorithm implemented is Q-Learning, which is a model-free algorithm that learns the optimal Q-value for each state-action pair, based on the Q-learning update rule. The Q-value represents the expected cumulative reward that the agent will receive if it takes a specific action in a given state and follows the optimal policy from the resulting state. The optimal policy can then be derived from the Q-values, by selecting the action with the highest Q-value for each state.
+
+The performance of the two algorithms will be compared in terms of convergence speed and accuracy, by measuring the number of iterations required to converge to the optimal policy and the average cumulative reward obtained over multiple runs. Additionally, the impact of different hyperparameters, such as the discount factor and learning rate, will be analyzed to understand their effect on the performance of the algorithms. Overall, this project will provide a comprehensive introduction to reinforcement learning and its applications in solving decision-making problems.
